@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function Atv02() {
     return (
       <>
-          <h2>Atividade 02</h2>
+          <h2>Meu Contador</h2>
 
-          <Link to="/">Voltar</Link>
+          <Link to="/">Voltar para página inicial</Link>
       </>
     );
   }
