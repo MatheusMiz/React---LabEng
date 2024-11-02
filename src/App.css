@@ -37,7 +37,7 @@
   }
 }
 
-/* Centraliza o conteúdo */
+
 .counter-container {
   display: flex;
   flex-direction: column;
