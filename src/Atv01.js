@@ -16,7 +16,7 @@ function Atv01() {
       </div>
 
       <Link to="/" className="btn btn-secondary">
-        Voltar para página inicial
+        Voltar
       </Link>
     </div>
   );
