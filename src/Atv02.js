@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import React, { useState } from 'react';
 import './App.css';
+
+
 function Atv02() {
 
   const [total, setTotal] = useState(0);
@@ -60,8 +62,8 @@ function Atv02() {
         <div className="counter-item">
           <img src="mulher.png" alt="Mulheres" className="icon" />
           <div className="button-group">
-            <img src="mais.png" width="45" height="45" onClick={incrementMulheres} className="counter-button" />
-            <<img src="menos.jpg" width="50" height="50" onClick={decrementMulheres} className="counter-button" />
+            <img src="mais.png" width="45" height="45"  onClick={incrementMulheres} className="counter-button" />
+            <img src="menos.jpg" width="50" height="50" onClick={decrementMulheres} className="counter-button" />
           </div>
           <h3>Mulheres</h3>
           <div className="count-display">{mulheres}</div>
