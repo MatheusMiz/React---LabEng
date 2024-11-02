@@ -60,8 +60,8 @@ function Atv02() {
         <div className="counter-item">
           <img src="mulher.png" alt="Mulheres" className="icon" />
           <div className="button-group">
-            <FaPlusCircle onClick={incrementMulheres} className="counter-button" />
-            <FaMinusCircle onClick={decrementMulheres} className="counter-button" />
+            <img src="mais.png" width="45" height="45" onClick={incrementMulheres} className="counter-button" />
+            <<img src="menos.jpg" width="50" height="50" onClick={decrementMulheres} className="counter-button" />
           </div>
           <h3>Mulheres</h3>
           <div className="count-display">{mulheres}</div>
