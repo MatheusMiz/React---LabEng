@@ -69,6 +69,9 @@ function Atv02() {
           <div className="count-display">{mulheres}</div>
         </div>
       </div>
+        <Link to="/" className="btn btn-secondary">
+        Voltar para página principal
+      </Link>
     </div>
   );
 }
