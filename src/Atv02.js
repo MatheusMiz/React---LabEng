@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 
 import React, { useState } from 'react';
 import './App.css';
-import { FaSync, FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
-
 function Atv02() {
 
   const [total, setTotal] = useState(0);
