@@ -4,13 +4,13 @@ import React, { useState } from 'react';
 import './App.css';
 import { FaSync, FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
 
-function App() {
-  
+function Atv02() {
+
   const [total, setTotal] = useState(0);
   const [homens, setHomens] = useState(0);
   const [mulheres, setMulheres] = useState(0);
 
- 
+
   const incrementHomens = () => {
     setHomens(homens + 1);
     setTotal(total + 1);
@@ -73,4 +73,4 @@ function App() {
   );
 }
 
-export default App;
+export default Atv02;
