@@ -5,12 +5,12 @@ import './App.css';
 import { FaSync, FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
 
 function App() {
-  // Estados para o contador total, homens e mulheres
+  
   const [total, setTotal] = useState(0);
   const [homens, setHomens] = useState(0);
   const [mulheres, setMulheres] = useState(0);
 
-  // Funções para incrementar e decrementar homens e mulheres
+ 
   const incrementHomens = () => {
     setHomens(homens + 1);
     setTotal(total + 1);
@@ -35,7 +35,7 @@ function App() {
     }
   };
 
-  // Função para resetar todos os contadores
+  
   const resetCounters = () => {
     setTotal(0);
     setHomens(0);
