@@ -13,6 +13,10 @@ const Home = ()=> {
                     <li className="nav-item mb-2">
                         <Link className="nav-link btn btn-primary mx-2" to="/Atv02">Atividade 02</Link>
                     </li>
+                    <li className="nav-item mb-2">
+                    <Link className="nav-link btn btn-primary mx-2" to="/Atv03">Atividade 03</Link>
+                    </li>
+                    
                 </ul>
             </nav>
         </div>
