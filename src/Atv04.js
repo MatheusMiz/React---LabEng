@@ -11,6 +11,10 @@ import Form3 from "./Form3";
 import List from "./List";
 import List2 from "./List2";
 import ShapeEditor from "./ShapeEditor";
+import CounterList from "./CounterList";
+import List3 from "./List3";
+import List4 from "./List4";
+import BucketList from "./BucketList";
 
 function Atv04(){
     return(
@@ -37,6 +41,14 @@ function Atv04(){
         <List2></List2>
         <br></br>
         <ShapeEditor></ShapeEditor>
+        <br></br><br></br>
+        <CounterList></CounterList>
+        <br></br><br></br>
+        <List3></List3>
+        <br></br><br></br>
+        <List4></List4>
+        <br></br><br></br>
+        <BucketList></BucketList>
     </div>
     <div>
         <Link to="/" className="btn btn-secondary">
