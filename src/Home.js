@@ -16,6 +16,9 @@ const Home = ()=> {
                     <li className="nav-item mb-2">
                     <Link className="nav-link btn btn-primary mx-2" to="/Atv03">Atividade 03</Link>
                     </li>
+                    <li className="nav-item mb-2">
+                    <Link className="nav-link btn btn-primary mx-2" to="/Atv04">Atividade 04</Link>
+                    </li>
                     
                 </ul>
             </nav>
