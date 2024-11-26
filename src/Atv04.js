@@ -10,6 +10,7 @@ import Form2 from "./Form2";
 import Form3 from "./Form3";
 import List from "./List";
 import List2 from "./List2";
+import ShapeEditor from "./ShapeEditor";
 
 function Atv04(){
     return(
@@ -34,6 +35,8 @@ function Atv04(){
         <List></List>
         <br></br>
         <List2></List2>
+        <br></br>
+        <ShapeEditor></ShapeEditor>
     </div>
     <div>
         <Link to="/" className="btn btn-secondary">
